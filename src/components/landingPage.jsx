@@ -18,8 +18,6 @@ export default function LandingPage() {
         <div className="border border-red-500 rounded-lg p-4 mt-20 md:mt-10 lg:mt-5 w-11/12 md:w-2/3 lg:w-1/2 mx-auto">
           <div className="flex flex-col items-center">
             <img src="src/assets/afterlife.webp" alt="Imagen" className="w-full md:w-2/3 lg:w-3/4 mb-4" />
-            
-            {/* Línea roja que separa la imagen del texto */}
             <div className="w-full h-[1px] bg-red-500 mb-4"></div>
 
             <h1 className="text-cyan-400 text-2xl mb-4">Afterlife</h1>

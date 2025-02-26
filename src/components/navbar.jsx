@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Menú de hamburguesa */}
+      {/* Hamburger menu */}
       <div className={`md:hidden absolute w-full bg-gradient-to-r from-black via-green-500 to-yellow-300 bg-opacity-30 transition-all duration-300 ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}>
         <ul className="flex flex-col px-4 py-2">
           <li className="py-2 text-center"><a href="#" className="text-white hover:text-gray-300 block">Home</a></li>
